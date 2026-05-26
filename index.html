@@ -1,0 +1,149 @@
+<html>
+<head>
+
+<title>Pariwisata Lokal</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+
+/* HEADER */
+div.header{
+    height:80px;
+    text-align:center;
+    font-size:20px;
+    background-color:rgba(255,166,0,0.425);
+    padding-top:5px;
+}
+
+/* SIDEBAR */
+div.sidebar{
+    width:20%;
+    min-height:600px;
+    float:left;
+    text-align:center;
+    font-size:27px;
+    padding-top:200px;
+    background-color:rgba(166,255,0,0.685);
+}
+
+/* MENU LINK */
+div.sidebar a{
+    color:green;
+    text-decoration:none;
+    display:block;
+    margin:20px;
+}
+
+/* CONTENT */
+div.content{
+    width:79.3%;
+    min-height:600px;
+    float:right;
+    text-align:center;
+    font-size:25px;
+
+    background-image:url("lubana-sengkol-1.jpeg");
+    background-size:cover;
+    background-position:center;
+
+    color:white;
+    padding-top:150px;
+}
+
+/* PARAGRAF CONTENT */
+div.content p{
+    border:3px solid white;
+    background-color:rgba(0,0,0,0.5);
+    color:white;
+
+    padding:15px;
+
+    width:80%;
+    margin:auto;
+
+    border-radius:10px;
+
+    font-size:28px;
+    line-height:1.5;
+}
+
+/* FOOTER */
+div.footer{
+    clear:both;
+    height:50px;
+    text-align:center;
+    font-size:30px;
+    background-color:rgba(255,166,0,0.425);
+    padding-top:10px;
+}
+
+/* RESPONSIVE */
+@media screen and (max-width:768px){
+
+    div.sidebar{
+        width:100%;
+        min-height:auto;
+        float:none;
+        padding-top:20px;
+        padding-bottom:20px;
+    }
+
+    div.content{
+        width:100%;
+        float:none;
+        min-height:500px;
+        padding-top:100px;
+    }
+
+    div.content p{
+        width:90%;
+        font-size:20px;
+    }
+
+    h1{
+        font-size:30px;
+    }
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- HEADER -->
+<div class="header">
+    <h1 style="color:forestgreen;">
+        Lubana Sengkol
+    </h1>
+</div>
+
+<!-- SIDEBAR -->
+<div class="sidebar">
+
+    <a href="index.html">Home</a>
+
+    <a href="profil.html">Profil</a>
+
+    <a href="menu.html">Menu</a>
+
+</div>
+
+<!-- CONTENT -->
+<div class="content">
+
+    <p>
+        Lubana Sengkol
+        <br><br>
+        Tempat wisata untuk keluarga anda
+    </p>
+
+</div>
+
+<!-- FOOTER -->
+<div class="footer">
+    Info Kontak
+</div>
+
+</body>
+</html>
